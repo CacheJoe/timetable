@@ -511,7 +511,7 @@ def _render_results(state) -> None:
 
 def render_app(repo: JsonRepository, root: Path) -> None:
     st.title("Timetable Management System")
-    st.caption("Single-branch academic timetable planner with hard constraints, soft optimization, lab rotation, and exports.")
+    st.caption("Prototype academic timetable planner with hard constraints, soft optimization, lab rotation, and exports - MK1.")
 
     state = repo.load_state()
 
