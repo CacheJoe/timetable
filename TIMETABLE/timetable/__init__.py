@@ -1,2 +1,0 @@
-"""Timetable Management System package."""
-
